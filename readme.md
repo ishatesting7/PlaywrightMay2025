@@ -119,3 +119,42 @@ Run this 2 command for making your self registered on your machine
 
 git config --global user.name "Sam Smith"
 git config --global user.email sam@example.com
+===================================================================
+
+page.getByRole() to locate by explicit and implicit accessibility attributes.
+
+page.getByText() to locate by text content.
+
+page.getByLabel() to locate a form control by associated label's text.
+
+page.getByPlaceholder() to locate an input by placeholder.
+
+page.getByAltText() to locate an element, usually image, by its text alternative.
+
+page.getByTitle() to locate an element by its title attribute.
+
+page.getByTestId() to locate an element based on its data-testid attribute (other attributes can be configured).
+
+page.locator('css')
+
+page.locator('xpath')
+
+CSS - Cascading Style Sheet
+===========================
+
+How to write the CSS - 
+--------------------
+- If we are aware about the classname in the html code then the css selector would be - .classname (Note - If there is empty space in the classname then you need to replace with .)
+- If we are aware about the ID in the html code then the css selector will be - #id
+- If you aware about the tag, attribute and value -> tag[attribute='value']
+- If you are aware about the attribute and value -> [attribute='value']
+
+
+
+
+<input type="text" class="font14 fullWidth" autocomplete="off" placeholder="Enter Mobile Number" data-cy="userName" value="">
+
+
+input = tag
+type = attribute
+text = value
