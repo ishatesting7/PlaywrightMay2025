@@ -158,3 +158,15 @@ How to write the CSS -
 input = tag
 type = attribute
 text = value
+
+
+Plugin - https://selectorshub.com/
+Install the plugin from the above URL
+
+
+Assignment - 
+------------
+
+1. Try to use - Record at cursor
+2. Try to use - Pick locator to identify the element 
+You should 2 test cases 
