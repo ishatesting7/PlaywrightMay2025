@@ -170,3 +170,10 @@ Assignment -
 1. Try to use - Record at cursor
 2. Try to use - Pick locator to identify the element 
 You should 2 test cases 
+
+
+Asssignment - 
+
+1. Read throught the assertion topic of playwright - 
+
+https://playwright.dev/docs/test-assertions
