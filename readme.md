@@ -177,3 +177,12 @@ Asssignment -
 1. Read throught the assertion topic of playwright - 
 
 https://playwright.dev/docs/test-assertions
+
+Assignment 2 Test - 
+
+//URL - https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+
+1. Under -> Admin->Usermanagement-> Add a new user
+2. Same user need to be Deleted 
+
+If possible add relevant assertions as well.
