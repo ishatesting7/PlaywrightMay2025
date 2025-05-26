@@ -11,8 +11,11 @@ console.log("person.country: "+person.country)
 //Adding the property gender into Javascript Object person 
 
 person.gender='Male'
+person.salary=30000
 console.log("person.gender: "+person.gender)
 console.log("------------------")   
+
+console.log("person.Salary: "+person.salary)
 
 //Deleting the property gender from Javascript Object person 
 

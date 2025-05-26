@@ -2,7 +2,9 @@
 let person ={
 firstName: 'Vikas',
 lastName: 'B',
-country: 'India'
+country: 'India',
+Salary:20000,
+Address:'India'
 }
 
 for(let key in person){

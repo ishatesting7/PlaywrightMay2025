@@ -9,9 +9,9 @@ console.log("person.lastName: "+person.lastName)
 console.log("person.country: "+person.country)
 
 person.firstName='Sandeep'
-person. LastName='B'
+person.lastName='B'
 person.country='India'
 
 console.log("person.firstName: "+person.firstName) 
-console.log("person.lastName: "+person. LastName) 
+console.log("person.lastName: "+person.lastName) 
 console.log("person.country: "+person.country)
