@@ -187,6 +187,12 @@ Assignment 2 Test -
 
 If possible add relevant assertions as well.
 
+
+Assignment - 29th May - 2025
+
+1. Write Atleast 10 Programs for String, Fibonacci, Armstrong, Palindrome, Anagram
+
+
 Assignment -
 ----------
 
