@@ -15,3 +15,7 @@ person.country='India'
 console.log("person.firstName: "+person.firstName) 
 console.log("person.lastName: "+person.lastName) 
 console.log("person.country: "+person.country)
+
+console.log("person[firstName]: "+person['firstName']) 
+console.log("person [lastName]: "+person['lastName']) 
+console.log("person [country]: "+person['country'])

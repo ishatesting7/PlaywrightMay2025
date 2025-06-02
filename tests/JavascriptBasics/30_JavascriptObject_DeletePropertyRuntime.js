@@ -20,6 +20,7 @@ console.log("person.Salary: "+person.salary)
 //Deleting the property gender from Javascript Object person 
 
 delete person.gender
+console.log("Display Value - "+ person);
 console.log("person.firstName: "+person.firstName) 
 console.log("person. lastName: "+person.lastName)
 console.log("person.country: "+person.country)
