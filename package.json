@@ -5,7 +5,12 @@
   "main": "index.js",
   "scripts": {
     "runTest": "npx playwright test",
-    "runTestHeadless": "npx playwright test --headed"
+    "runTestHeadless": "npx playwright test --headed",
+    "runTestWithRegression":"npx playwright test --grep '@regression'",
+    "runTestWithSmoke":"npx playwright test --grep '@smoke'",
+    "runTestWithoutTagRegression":"npx playwright test --grep-invert '@regression'",
+    "openLatestHTMLReport":"npx playwright show-report",
+    "runFailedTestCases":"npx playwright test --last-failed"
   },
   "keywords": [],
   "author": "",
