@@ -1,0 +1,33 @@
+{
+  "user": {
+    "name": "Manan",
+    "age": 38,
+    "isMarried": false,
+    "address": {
+      "street": "ABC",
+      "city": "Metro",
+      "zipcode": "92837"
+    },
+    "contact": [
+      {
+        "type": "email",
+        "value": "jason@demo.com"
+      },
+      {
+        "type": "phone",
+        "value": "+1092992929"
+      },
+      {
+        "type": "phone2",
+        "value": "+03920900202"
+      }
+    ]
+  },
+  "setting": {
+    "theme": "dark",
+    "notification": {
+      "email": true,
+      "sms": false
+    }
+  }
+}

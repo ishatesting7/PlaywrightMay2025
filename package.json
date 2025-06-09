@@ -6,11 +6,11 @@
   "scripts": {
     "runTest": "npx playwright test",
     "runTestHeadless": "npx playwright test --headed",
-    "runTestWithRegression":"npx playwright test --grep '@regression'",
-    "runTestWithSmoke":"npx playwright test --grep '@smoke'",
-    "runTestWithoutTagRegression":"npx playwright test --grep-invert '@regression'",
-    "openLatestHTMLReport":"npx playwright show-report",
-    "runFailedTestCases":"npx playwright test --last-failed"
+    "runTestWithRegression": "npx playwright test --grep '@regression'",
+    "runTestWithSmoke": "npx playwright test --grep '@smoke'",
+    "runTestWithoutTagRegression": "npx playwright test --grep-invert '@regression'",
+    "openLatestHTMLReport": "npx playwright show-report",
+    "runFailedTestCases": "npx playwright test --last-failed"
   },
   "keywords": [],
   "author": "",
@@ -19,5 +19,8 @@
     "@playwright/test": "^1.52.0",
     "@types/node": "^22.15.17",
     "allure-playwright": "^3.2.2"
+  },
+  "dependencies": {
+    "@faker-js/faker": "^9.8.0"
   }
 }
