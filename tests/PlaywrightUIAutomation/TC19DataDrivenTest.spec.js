@@ -26,8 +26,8 @@ test.describe.parallel('Register all users defined in JSON', () => {
       await page.locator("#input-telephone").fill(user.phone);
       await page.locator("#input-password").fill(user.password);
       await page.locator("#input-confirm").fill(user.password);
-
-      await page.locator("input[type='checkbox'][name='agree']").check();
+      await page.waitForTimeout(1000);
+      await page.locator('[for="input-agree"]').check();
       await page.locator("input[value='Continue']").click();
 
       await expect(page.locator("h1")).toHaveText("Your Account Has Been Created!");
