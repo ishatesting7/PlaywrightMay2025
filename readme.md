@@ -228,3 +228,86 @@ Run below 2 command to generate and open the Allure Report -
 allure generate ./allure-results -o ./allure-report
 allure open ./allure-report
 
+
+--------------------------------------------------
+
+Playwright -> Page Object Model
+------------------------------
+-page
+-Folders
+-subFolder
+  -homePage.js
+    -pageElements
+    -pageAction
+  -accountPage.js
+  -footerPage.js
+  -adminSectionPage.js
+  -aboutusPage.js
+  -registerPage.js
+  -loginPage.js
+  -checkoutPage.js
+  -confirmationPage.js
+  -billingAddressPage.js
+-utils
+  -date.js
+  -utilityFunction.js
+  -excelUtil.js
+-tests
+ -testData
+  -apiTestData
+    -Payload
+     -GetPayload
+     -PostPayload
+     -PutPayload
+     -DeletePayload
+  -uiTestData
+   -registrationData.json
+   -loginData.json
+   -checkoutData.json
+ -UITestCase
+  -TC01_Test.spec.js
+  -TC02_Test.spec.js
+ -APITestCase
+
+
+Playwright - Page Object Mode + Cucumber BDD Gherkin 
+---------------------------------------------------
+-page
+-Folders
+-subFolder
+  -homePage.js
+    -pageElements
+    -pageAction
+  -accountPage.js
+  -footerPage.js
+  -adminSectionPage.js
+  -aboutusPage.js
+  -registerPage.js
+  -loginPage.js
+  -checkoutPage.js
+  -confirmationPage.js
+  -billingAddressPage.js
+-utils
+  -date.js
+  -utilityFunction.js
+  -excelUtil.js
+-tests
+ -testData
+  -apiTestData
+    -Payload
+     -GetPayload
+     -PostPayload
+     -PutPayload
+     -DeletePayload
+  -uiTestData
+   -registrationData.json
+   -loginData.json
+   -checkoutData.json
+ -features
+   -.feature (GIVEN WHEN THEN AND)
+ -stepDefinition
+   -.js (Implement in this file)
+ -UITestCase
+  -TC01_Test.spec.js
+  -TC02_Test.spec.js
+ -APITestCase
