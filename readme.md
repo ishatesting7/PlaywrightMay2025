@@ -311,3 +311,33 @@ Playwright - Page Object Mode + Cucumber BDD Gherkin
   -TC01_Test.spec.js
   -TC02_Test.spec.js
  -APITestCase
+
+
+
+ API TestCases
+ -------------
+
+ CRUD - Operation
+
+ Create
+ Read
+ Update
+ Delete
+
+ POST
+ PUT
+ GET
+ PATCH
+ DELETE
+
+ API Status Code
+
+ 1XX
+ 2XX - Positive - 200, 201, 202, 204
+ 3XX - 
+ 4XX - Client side error
+ 5XX - Server side error
+
+ Assertion will be based on status code and status message
+ Assertion will be base on JSON Response
+ 
